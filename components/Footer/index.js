@@ -3,9 +3,12 @@ import styles from './index.module.scss'
 
 export default function Footer() {
   return (
-    <footer>
+    <footer className={styles.main}>
       <Container>
-        Takumi © 2021
+        <div className={styles.text}>
+          <span>Takumi © 2021.</span>
+          <span>Have a good day!</span>
+        </div>
       </Container>
     </footer>
   )
