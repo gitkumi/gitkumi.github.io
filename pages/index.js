@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Container from 'components/Container'
 import Navbar from 'components/Navbar'
 import Footer from 'components/Footer'
+import styles from './index.module.scss'
 
 export default function Home() {
   return (
@@ -15,7 +16,7 @@ export default function Home() {
 
       <main>
         <Container>
-          <div>
+          <div className={styles.intro}>
             <p>Hi, I'm a Software Developer based in Japan.</p>
             <p>I specialize on front-end web development.</p>
             <p>These days I'm mostly working with React, sometimes Vue.</p>
