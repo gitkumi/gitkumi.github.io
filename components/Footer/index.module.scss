@@ -3,12 +3,3 @@
   padding-top: 3rem;
   padding-bottom: 1rem;
 }
-
-.text {
-  display: inline-flex;
-  flex-wrap: wrap;
-
-  & > span:first-child {
-    margin-right: 0.25rem;
-  }
-}

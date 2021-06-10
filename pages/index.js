@@ -16,7 +16,11 @@ export default function Home() {
       <main>
         <Container>
           <div>
-            Hi, I'm a Software Developer based in Japan.
+            <p>Hi, I'm a Software Developer based in Japan.</p>
+            <p>I specialize on front-end web development.</p>
+            <p>These days I'm mostly working with React, sometimes Vue.</p>
+            <p>Outside of JavaScript, I'm also interested in Elixir.</p>
+            <p>Have a good day!</p>
           </div>
         </Container>
       </main>

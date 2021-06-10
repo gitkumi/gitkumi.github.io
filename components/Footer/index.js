@@ -5,10 +5,7 @@ export default function Footer() {
   return (
     <footer className={styles.main}>
       <Container>
-        <div className={styles.text}>
-          <span>Takumi © 2021.</span>
-          <span>Have a good day!</span>
-        </div>
+        Takumi © 2021
       </Container>
     </footer>
   )
