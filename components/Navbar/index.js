@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <nav className={styles.main}>
       <Container>
-        <h1>Takumi's Page</h1>
+        <a href="/">Takumi's Page</a>
       </Container>
     </nav>
   )
